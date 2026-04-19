@@ -24,7 +24,7 @@ export class Olympus {
     if (!config.service) throw new Error('Olympus: service name is required');
 
     this.config = {
-      endpoint: 'http://localhost:4000',
+      endpoint: 'https://api.olympusai.in',
       flushInterval: 10_000,
       batchSize: 100,
       ...config,
