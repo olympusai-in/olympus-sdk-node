@@ -3,7 +3,7 @@ import { Olympus } from '../src/index';
 const olympus = new Olympus({
   apiKey: process.env.OLYMPUS_API_KEY || 'ol_YOUR_KEY_HERE',
   service: 'my-app',
-  endpoint: 'http://localhost:4000',
+  endpoint: 'https://api.olympusai.in',
   flushInterval: 5000, // flush every 5s for testing
 });
 
